@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrot Love ❧</title>
+    <!--Document Title--> 
+</head>
+
+<body style="background-color: rgb(248, 192, 136);">
+    <p style= font-family:courier New; font-size="79">
+    How much do you know about carrots? 
+    
+    <br>
+   
+    <img src="images/Carrots.jpg" alt="image of carrots" width="300px" border="2"></img>
+    <!--image 1--> 
+    
+    <br><br>
+    
+    Did you know that baby carrots are made from regular sized carrots that were cut down and peeled into its signature shape?
+    
+    <br><br>
+
+    If you answered "yes", test your knowledge about carrot trivia below!
+    
+    <br><br>
+
+    If you answered "no", learn more about the wonders of carrots in the trivia below!
+    </p>
+
+    <br><br>
+    
+    <form method="get" action="results.html" style= font-family:courier New; font-size="79">
+    <strong><label id="firstquestion" required>1. What colors can carrots come in?</label></strong>
+    <br>
+    <select  id="fistquestion" name="option">
+        <option value="option">select answer here</option>
+        <option value="option">Orange</option>
+        <option value="option">Yellow</option>
+        <option value="option">White</option>
+        <option value="option">Purple</option>
+        <option value="option">All of the above</option>
+    </select>
+    <!--Select field 1--> 
+
+    <br><br>
+    <strong><label id="radiofamily" required>2. What family is the carrot apart of?</label></strong>
+    <br>
+    <em>
+    <input type="radio" name="family" value="Allium">Allium
+    <input type="radio" name="family" value="Cucurbitaceae">Cucurbitaceae
+    <input type="radio" name="family" value="Apiaceae">Apiaceae
+    <input type="radio" name="family" value="Solanaceae">Solanaceae
+    </em>
+    <!--Radio field 1--> 
+
+    <br><br>
+    <strong><label id="state"></label>3. Which state produces the most carrots in the USA?</label></strong>
+    <br>
+    <select id="state" value="stateoption" required>States</option>
+        <option id="state" value="stateoption">select answer here</option>
+        <option id="state" value="stateoption">Arkansas</option>
+        <option id="state" value="stateoption">California</option>
+        <option id="state" value="stateoption">New York</option>
+        <option id="state" value="stateoption">Texas</option>
+        <option id="state" value="stateoption">Alabama</option>
+        <option id="state" value="stateoption">Florida</option>
+    </select>
+    <!--Select field 2--> 
+
+    <br><br>
+    <strong><label id="carrotskin" required>4. True or False: Eating too much carrots can make your skin turn orange</label></strong>
+    <br>
+    <input type="radio" id="carrotskin" name="carrotskin" value="true">True
+    <br>
+    <input type="radio" id="carrotskin" name="carrotskin" value="false">False
+    <!--Radio field 2--> 
+
+    <br><br>
+
+    <strong><label id="vitamin" required>5. What vitamins can carrots give you? (Select all that apply)</label></strong>
+    <br>
+        <input type="checkbox" id="vitaminA" name="vitamin" value="carrotvitamin">
+        <label id="vitaminA">Vitamin A</label><br>
+
+        <input type="checkbox" id="vitaminD" name="vitamin" value="carrotvitamin">
+        <label id="vitaminD">Vitamin D</label><br>
+
+        <input type="checkbox" id="vitaminK1" name="vitamin" value="carrotvitamin">
+        <label id="vitaminK1">Vitamin K1</label><br>
+
+        <input type="checkbox" id="vitaminB6" name="vitamin" value="carrotvitamin">
+        <label id="vitaminB6">Vitamin B6</label><br>
+    <!--Checklist--> 
+
+    <br><br>
+
+    <label id="carrotmeal">• What are your favorite ways to eat carrots? (Optional) </label>
+    <input type="text" id="carrotmeal" placeholder="write response here">
+    <!--Textarea--> 
+
+    <br><br>
+
+    <input type="submit">
+    <!--Submit button--> 
+    </form>
+</body>
+</html>
